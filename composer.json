@@ -1,0 +1,26 @@
+{
+  "name": "arth/php52-log",
+  "description": "php5.2 monolog port",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alexander Deider",
+      "email": "arth.inbox@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "autoload-dev": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "extra": {
+    "autoload": {
+      "class": "MedInTech_Snake_Loader",
+      "path": "/src",
+      "prefix": "MedInTech_Log"
+    }
+  }
+}
